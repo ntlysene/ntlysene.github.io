@@ -48,7 +48,7 @@
                        <td>167</td>
                        <td>0</td>
                        <td>Closest to the Sun</td>
-                       <td><img src="./images/mercury.jpg" alt="mercury"></td>
+                       <td><img src="mercury.jpg"></td>
                     </tr>
                     <tr>
                         <th>Venus</th>
@@ -61,7 +61,7 @@
                         <td>464</td>
                         <td>0</td>
                         <td></td>
-                        <td><img src="./images/venus.jpg" alt="venus"></td>
+                        <td><img src="venus.jpg"></td>
 
                     </tr>
                     <tr>
@@ -75,7 +75,7 @@
                         <td>15</td> 
                         <td>1</td>
                         <td>Our world</td>
-                        <td><img src="./images/earth.png" alt="earth"></td>
+                        <td><img src="earth.png"></td>
                     </tr>
                     <tr>
                         <th>Mars</th>
@@ -88,7 +88,7 @@
                         <td>-65</td>
                         <td>2</td>
                         <td>The red planet</td>
-                        <td><img src="./images/mars.jpg" alt="mars"></td>
+                        <td><img src="mars.jpg"></td>
             
                     </tr>
                     <tr>
@@ -104,7 +104,7 @@
                         <td>-110</td>
                         <td>67</td>
                         <td>The largest planet</td>
-                        <td><img src="./images/jupiter.jpg" alt="jupiter"></td>
+                        <td><img src="jupiter.jpg"></td>
                     </tr>
                     <tr>
                         <th>Saturn</th>
@@ -117,7 +117,7 @@
                         <td>-140</td>
                         <td>62</td>
                         <td></td>
-                        <td><img src="./images/saturn.jpg" alt="saturn"></td>
+                        <td><img src="saturn.jpg"></td>
                     </tr>
                     <tr>
                         <th rowspan="2">Ice giants</th>
@@ -131,7 +131,7 @@
                         <td>-195</td>
                         <td>27</td>
                         <td></td>
-                        <td><img src="./images/uranus.jpg" alt="uranus"></td>
+                        <td><img src="uranus.jpg"></td>
         
                     </tr>
                     <tr>
@@ -145,7 +145,7 @@
                         <td>-200</td>
                         <td>14</td>
                         <td></td>
-                        <td><img src="./images/neptune.jpg" alt="neptune"></td>
+                        <td><img src="neptune.jpg"></td>
                     </tr>
                     <tr>
                         <th colspan="2" rowspan="2">Dwarf planets</th>
@@ -161,7 +161,7 @@
                         <td>-225</td>
                         <td>5</td>
                         <td>Declassified as a planet in 2006, but this <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.</td>
-                        <td><img src="./images/pluto.jpg" alt="pluto"></td>
+                        <td><img src="pluto.jpg"></td>
                     </tr>
                 </tbody>
             </table>
