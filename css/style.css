@@ -68,8 +68,9 @@ h2 {
     font-size: 3rem;
     margin: 0;
     letter-spacing: 0.25rem;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif ;
+    color: darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
     text-align: center;
 }
 
