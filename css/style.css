@@ -123,13 +123,20 @@ p {
 }
 
 /* Image & Figure */
-
+image{
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-left: auto;
+    max-width: 50rem;
+}
 figure {
     margin-bottom: 2rem;
 }
 figcaption{
     padding-top: 0.5rem;
-    margin-right: auto;
+    text-align: right;
 }
 
 
