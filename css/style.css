@@ -1,238 +1,86 @@
-/* || General Setup */
+/* Imported Typeface Files */
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,900,900i|Roboto+Condensed:400,400i,700|Roboto:400,400i,900|Shadows+Into+Light');
+@font-face {
+    font-family:Lato;
+    src: url(../fonts/lato-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+
+    font-family:Alfa Slab One;
+    src: url(../fonts/alfa-slab-one-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+
+
+/* Root */
 
 html {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    background-color: #FFFFFF;
+    font-size:16px;
 }
+
+
+/* Body & Main  */
 
 body {
-    max-width:1200px;
-    margin:0 auto;
-    padding:1rem 2rem;    
-    color:#111;
-    font-family: 'Roboto Condensed', sans-serif;
-       
-} 
-
-header {
-    border-bottom: .0625rem solid #333;
-    margin-bottom:4rem;
-    padding-bottom:2rem;
-  
-}
- 
-h1 {
-    font-size: 6rem;
-    font-weight:100;
-    color: #333;
-    font-family: Lato, sans-serif;
-    text-shadow:2px 2px 3px #333;      
-    margin:0;
-}
-
-h1 span {
-    color:#8C2B3F;
-}
-
-h2 {
-    
-    font-size:2rem;
-    margin-top:0;
-    font-weight:100;
-    font-family:'Lato', sans-serif;
-    
-}
-
-p, li {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-blockquote {
-    
-    border-top:.0625rem solid #333;
-    border-bottom:.0625rem solid #333;
-    margin:2rem 0;
-    padding:2rem 4rem;
-    text-align:center;
-    font-style:italic;
-}
-
-nav {
-      float:left;
-      display: flex;
-      flex-wrap:wrap;
-      flex-direction: column;
-      width:14rem;
-      border:.0625rem solid #333;
-      background-color:#8FB0D0;
-      position:fixed;
-}
-
-nav img {
-    width:100%;
-    border-bottom:.0625rem solid #333;
-}
-
-nav p {
-    margin:0;
+    font-family:Lato, Arial, sans-serif;
+    font-size:1rem;
     padding:1rem;
-    font-size:.75rem;
-    background-color:#242F40;
-    color:#B1BED3;
-    border-top:.0625rem solid #333;
+    min-width:39rem;
+    max-width:50rem;
+    margin:0 auto;
 }
-
-nav p a {
-    
-    color:#B1BED3;
-}
-
-nav p a:hover,
-figcaption a:hover {
-    color:#495F83;
-    text-decoration:none;
-}
-
-nav ul {
-    border-bottom:.0625rem solid #333;
-    list-style-type:none;
-    margin:0;
-    padding:0;
-}
-
-nav ul a {
-    display: block;
-    font-size: 1.5rem;
-    line-height: 1.7;
-    padding:.75rem 1.25rem;
-    text-decoration: none;
-    color: #333;
-    font-family:'Roboto', sans-serif;
-}
-
-nav :nth-child(2) {
-    margin-top:0;
-}
-
-nav a:hover {
-  color:#FFF;
-    background-color:#333;
-}
-
-nav a:active {
-    color:#FFF;
-    font-style: italic;
-    background-color:#333;
-}
-
-/* || main layout */
-
 main {
-    padding-left:2%;
-    padding-right:2%;
-    margin-left:14rem;
+    background-color:#ddd;
+    background-image:url(../images/wrinkled-white-paper-background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border:1px solid #333;
 }
 
-section {
-    margin-bottom:.5%;
+/* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
+/* NO changes should be made to any of the code above. */
+
+/* The first heading style rule has been completed for you. Examine it carefully
+   to get an idea of some of the style properties you will need to use; then
+   complete the style code according to the instructions in Canvas. */
+
+/* NOTE: While you will be using some of the same CSS properties, the VALUES 
+   may need to be different in order to style the page correctly. */
+
+
+/* Headings  */
+
+h1 {
+    text-transform: uppercase;
+    font-size:6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 0.25rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: center;
 }
 
-aside {
-    display:flex;
-}
+/* Section & Paragraph */
 
-figure {
-    
-    background-color:#242F40;
-}
 
-/* || Media */
 
-.fig-1 {
-    
-    width:49%;
-    margin-left:0;
-    margin-right:1%;
-}
+/* Image & Figure */
 
-.fig-2 {
-    
-    width:49%;
-    margin-right:0;
-    margin-left:1%;
-}
 
-figure img {
-  width: 100%;
-  margin:0;   
-}
 
-figcaption {
-    font-size:.75rem;
-    padding:.5rem;
-    margin:0;
-    background-color:#242F40;
-    color:#B1BED3;
-}
+/* Footer */
 
-figcaption a {
-    
-    font-size:.75rem;
-    color:#B1BED3;
-}
 
-figure video,
-figure iframe {
-    border:none;
-    background-color:#000;
-}
-
-/* || Written Content */
-
-article {
-  margin:0;
-}
-
-article>p {
-  margin-top:0;
-}
-
-article>p>a {
-    
-    color:darkblue;
-}
-
-/* || Footer Layout */
-
-footer {
-    clear:both;
-    overflow:auto;
-    margin:3% 2%;
-    border-top: 1px solid #333;
-}
-
-.copyright {
-    font-size:.75rem;
-    text-align:right;
-}
-
-footer a {
-    font-size:.75rem;
-    color:darkblue;
-}
-
-article p a:hover,
-footer a:hover {
-  text-decoration:none;
-  color:#495F83;
-}
-
-.return {
-    font-size:.75rem;
-    float:left;
-}
