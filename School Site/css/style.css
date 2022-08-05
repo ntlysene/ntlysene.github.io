@@ -80,12 +80,16 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: josefinslab;
+    src: url(../fonts/josefinslab-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: montserrat;
+    src: url(../fonts/montserrat-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Typography Styles */
