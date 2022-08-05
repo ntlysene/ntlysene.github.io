@@ -123,13 +123,29 @@ font-size: 1.5rem;
 
 }
 
-h2 + p {}
+h2 + p {
+font-size: 0.75rem;
+letter-spacing: 0.031rem;
+word-spacing: 0.125rem;
+text-indent: 1.5rem;
+}
 
-p {}
+p {
+font-size: 0.75rem;
+letter-spacing: 0.031rem;
+word-spacing: 0.125rem;   
+}
 
-li {}
+li {
+font-size: 0.75rem;
+letter-spacing: 0.031rem;
+word-spacing: 0.125rem;
+}
 
-figcaption {}
+figcaption {
+font-size: 0.75rem;
+margin-bottom: 2rem;
+}
 
 /* Link Styling */
 
