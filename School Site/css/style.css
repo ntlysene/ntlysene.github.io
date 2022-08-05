@@ -94,11 +94,34 @@ header, footer {
 
 /* Typography Styles */
 
-html {}
+html {
+    font-family: montserrat; 
+    src: url(../fonts/montserrat-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 
-h1 {}
+h1 {
+letter-spacing: 0.13rem;
+font-family: josefinslab;
+src: url(../fonts/josefinslab-regular.ttf);
+font-weight: normal;
+font-style: normal;
+font-size: 3.75rem;
+margin: 1.125em; 
+text-align: center;
+}
 
-h2 {}
+
+h2 {
+letter-spacing: 0.13rem;
+font-family: josefinslab;
+ src: url(../fonts/josefinslab-regular.ttf);
+font-weight: normal;
+font-style: normal;  
+font-size: 1.5rem; 
+
+}
 
 h2 + p {}
 
