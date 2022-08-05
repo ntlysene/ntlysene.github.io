@@ -193,14 +193,7 @@ nav {
 padding-left: 0;
 margin-top: 0.25rem;
 }
-
-nav a:focus,
-nav a:hover {
-color: #fff;
-background-color: #33658A;
-}
-
-nav a:active {
+nav a {
 display: inline-block;
 text-align: center;
 font-size: 1.125rem;
@@ -208,6 +201,12 @@ text-decoration:none;
 border: solid;
 border-width: 0.063rem;
 border-color: #33658A;
+    }
+    
+nav a:focus,
+nav a:hover {
+color: #fff;
+background-color: #33658A;
 }
 
 
